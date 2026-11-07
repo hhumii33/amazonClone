@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background: #dadada; 
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#amazonLogo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    align-items: center;
+    margin-top: 8px;
+    
+}
+
+nav {
+    background-color: rgb(15, 17, 17);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.navlocation{
+    display: flex;
+    align-items: end;
+    margin-left: 15px;
+    font-size: 13px;
+    color: #c4c4c4;
+}
+.navlocation h1{
+    color: #fff;
+    font-size: 14px;
+}
+
+.navsearch{
+    flex: 1;
+    display: flex;
+align-items: center;
+background: #fff;
+color: gray;
+max-width: 1000px;
+border-radius: 4px;
+margin-left: 15px;
+}
+
+.navsearchGate{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 5px;
+    background: #e2e2e2;
+    border-radius: 4px 0 0 4px;
+}
+
+.navsearchBar{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.navsearchIcon{
+    max-width: 41px;
+    padding: 8px;
+    background: #ffd64f;
+    border-radius: 0 4px 4px 0;
+}
+
+.navlanguage{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.navtext{
+    margin-left: 15px;
+}
+.navtext p{
+    font-size: 10px;
+}
+.navtext h1{
+    font-size: 14px;
+}
+
+.navcart a{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+}
